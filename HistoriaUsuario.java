@@ -24,14 +24,15 @@ class HistoriaUsuario {
     }
 
     public void imprimir() {
-        System.out.println("ID: " + id);
-        System.out.println("Rol: " + rol);
-        System.out.println("Funcionalidad: " + funcionalidad);
-        System.out.println("Razón: " + razon);
-        System.out.println("Criterio: " + criterio);
-        System.out.println("Contexto: " + contexto);
-        System.out.println("Evento: " + evento);
-        System.out.println("Resultado esperado: " + resultadoEsperado);
-        System.out.println("--------------------------");
+    System.out.println("== Detalles de la Historia de Usuario ==");
+    System.out.println("Identificador: " + id);
+    System.out.println("Rol: " + rol);
+    System.out.println("Funcionalidad: " + funcionalidad);
+    System.out.println("Razón: " + razon);
+    System.out.println("Criterio: " + criterio);
+    System.out.println("Contexto: " + contexto);
+    System.out.println("Evento: " + evento);
+    System.out.println("Resultado esperado: " + resultadoEsperado);
+    System.out.println("=========================================");
     }
 }
