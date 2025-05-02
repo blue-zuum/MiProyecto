@@ -26,7 +26,7 @@ class HistoriaUsuario {
 
     public void imprimir() {
         System.out.println("== Detalles de la Historia de Usuario ==");
-        System.out.println("Código de usuario: " + id);
+        System.out.println("ID del usuario: " + id);
         System.out.println("Rol: " + rol);
         System.out.println("Funcionalidad: " + funcionalidad);
         System.out.println("Razón: " + razon);
